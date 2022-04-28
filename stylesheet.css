@@ -7,7 +7,9 @@
     src: url('base42-regular-webfont.woff2') format('woff2'),
          url('base42-regular-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style: inherit;
+.contextual {
   font-variant-ligatures: contextual;
+}
 
 }
